@@ -6,7 +6,7 @@ const images = {
     "https://images.unsplash.com/photo-1781183955329-6edb3d53b8d9?auto=format&fit=crop&q=85&w=2400",
 
   pergola:
-    "https://images.unsplash.com/photo-1781183955329-6edb3d53b8d9?auto=format&fit=crop&q=85&w=1400",
+    "/pergola.png",
 
   deck:
     "https://images.unsplash.com/photo-1721614473730-1aed4a93f1d5?auto=format&fit=crop&q=85&w=1400",
@@ -174,7 +174,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-screen">
         <Image
-          src={images.hero}
+          src="/pergola.png"
           alt="Premium outdoor wooden pergola"
           fill
           priority
